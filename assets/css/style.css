@@ -1,0 +1,156 @@
+/*font-family: 'Source Sans Pro', sans-serif;
+*/
+html{
+    min-height: 100%;
+    /*background-color: #060007; */
+    background-color: #ffffff;
+   
+}
+body{
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif; 
+}
+div#main-container{
+    /* top right bottom left */
+    margin:25px 70px 0 70px;
+    /*border: 1px solid #060007;*/
+    padding:0px;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #060007;
+    background-color: #ffffff; 
+    /*background-color: #22589e;*/
+    
+   
+}
+div#top-section{
+    background-color: #282729;
+    color: #ffffff;
+    height: 50px;
+    
+    
+}
+div#topNav{
+    /*margin-left: 580px;*/
+    margin-top: 10px;
+    float: right;
+    margin-right: 190px;
+}
+
+div#mid-section{
+    clear: both;
+    background-color: #ffffff;
+    margin: 10px 0 0 0px;
+    /*height: 250px;
+   */ 
+}
+div#logo{
+    margin-top: 65px;
+    margin-left: 80px;
+    width:100px;
+    float: left;
+}
+div#words{
+    float: right;
+    width: 600px; 
+    margin-right: 235px;
+    margin-top: 10px;
+    
+    
+}
+div#main-section{
+    clear: both;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+hr{
+    color: #c90909;
+    background-color: #c90909;
+}
+footer{
+    position: relative;
+    background-color: #160609;
+    height: 260px;
+    color: #fcf53bd8;
+    border-top: 2px solid #c90909;
+   
+    
+}
+.large-emphasize{
+    font-size: 18px;
+    /*font-style: strong;
+    font-style: italic;*/
+    font-style: oblique;
+}
+
+
+
+div#pic1{
+    background-image: url("../images/workout3.jpg");
+    height: 660px;
+    color: #ffffff;
+    
+}
+div#pic2{
+    background-image: url("../images/workout.jpg");
+    height: 660px;
+    color: #b82bac86;
+    
+}
+div#pic3{
+    background-image: url("../images/nutrition.jpg");
+    height: 660px;
+    /*color: #22c545;*/
+    color: #778179;
+    
+}
+div#footer-pic{
+    float: left;
+    width: 180px;
+    margin-left: 10px;
+}
+div#footer-words{
+    float:right;
+    width: 600px;
+    margin-top: 45px;
+    margin-left: 15px;
+    color: #fff;
+}
+div#form{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 180px;
+    margin-top: 30px;
+    top:300%;
+    background-color: #fff;
+    font-size: 20px;
+}
+div#formArea{
+    margin-left: 60px;
+    font-size: 25px;
+    color: #435246;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    margin: 8px;
+    padding: 6px 12px;
+    outline: none;
+    /*border: 2px solid #d5da5c;*/
+    border: 1px solid #435246;
+    border-radius: 4px;
+    /*box-shadow: inset 0 0 3px 3px #b6bb1a; */
+    background-color: #f6f7f4;
+    width: 500px;
+    height: 35px;
+    color: #435246;
+    font-size: 14px;
+ }
+ 
+ textarea{
+    border: 1px solid #435246;
+    background-color: #f6f7f4;
+    border-radius: 4px;
+    width: 500px;
+    margin: 8px;
+    padding: 6px 12px;
+
+ }
