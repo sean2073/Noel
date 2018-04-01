@@ -163,7 +163,9 @@ div#footer-words{
 }
 div#form{
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 180px;
+    /*margin-left: 180px;
+    */
+    height: 660px;
     margin-top: 30px;
     top:300%;
     background-color: #fff;

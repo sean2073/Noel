@@ -69,13 +69,23 @@ hr{
     background-color: #c90909;
 }
 footer{
+    /*clear: both; 
+    top:600%;*/
     position: relative;
     background-color: #160609;
     height: 260px;
     color: #fcf53bd8;
     border-top: 2px solid #c90909;
-   
     
+    
+}
+#footer2{
+    position: absolute;
+    background-color: #160609;
+    height: 60px;
+    color: #fcf53bd8;
+    border-top: 2px solid #c90909;
+    top:3850px;
 }
 .large-emphasize{
     font-size: 18px;
@@ -84,26 +94,56 @@ footer{
     font-style: oblique;
 }
 
-
+#pic1, #pic2, #pic3, #form
+{
+    
+    width: 1224px; 
+   
+    position:absolute;
+   
+    
+    /*height:660px;
+     margin-left: 80px;
+     padding: 0px;
+    margin: 0px;*/
+}
 
 div#pic1{
     background-image: url("../images/workout3.jpg");
     height: 660px;
     color: #ffffff;
+    top:70px;
     
 }
 div#pic2{
     background-image: url("../images/workout.jpg");
     height: 660px;
     color: #b82bac86;
+    top:200%
     
 }
 div#pic3{
-    background-image: url("../images/nutrition.jpg");
+    background-image: url("../images/nutrition-small.png");
+    background-repeat: no-repeat;
     height: 660px;
-    /*color: #22c545;*/
-    color: #778179;
+    /*color: #22c545;
+    color: #778179;*/
+    color: black;
+    top:300%;
     
+    
+}
+div#recipe-content{
+    /*
+    z-index:-1;
+    
+    top:2300px;
+    position: absolute;
+    
+    */
+    margin-top: 138px;
+    height:345px;
+    color: black;
 }
 div#footer-pic{
     float: left;
@@ -118,12 +158,14 @@ div#footer-words{
     color: #fff;
 }
 div#form{
+    
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 180px;
-    margin-top: 30px;
-    top:300%;
+   /* margin-left: 180px; 
+    margin-top: 30px;*/
+    top:500%;
     background-color: #fff;
     font-size: 20px;
+    height: 660px;
 }
 div#formArea{
     margin-left: 60px;
