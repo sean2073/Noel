@@ -20,14 +20,18 @@ $(document).ready(function() {
       url: queryURL,
       method: "GET"
     }).done(function(response) {
-      console.log(response.hits[0].recipe.url);
+      for(var i =0; i < response.hits.length; i++)
+      {
+        console.log(response.hits[i].recipe.url);
       console.log(response);
       //var res = response.hits[0].recipe.url;
       
-      var res = $("<a href="+ response.hits[0].recipe.url + ">" + response.hits[0].recipe.url + "</a>");
+      var res = $("<a href="+ response.hits[i].recipe.url + ">" + response.hits[i].recipe.url + "</a><br>");
       console.log(res);
       $("#recipe-content").append(res);
+      }
+      
     });
-    console.log("hello");
+    
   });
 });
