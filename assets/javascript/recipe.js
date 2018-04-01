@@ -22,7 +22,9 @@ $(document).ready(function() {
     }).done(function(response) {
       console.log(response.hits[0].recipe.url);
       console.log(response);
-      var res = response.hits[0].recipe.url;
+      //var res = response.hits[0].recipe.url;
+      
+      var res = $("<a href="+ response.hits[0].recipe.url + ">" + response.hits[0].recipe.url + "</a>");
       console.log(res);
       $("#recipe-content").append(res);
     });
